@@ -6,7 +6,7 @@ Rails vers : 5.2.1
 ## Contenu
 Alors t'as des dogs, il ont chacun ville, puis il ont des dogsitters.
 Puis t'as des dogsitters, ils ont aussi une ville, et des dogs.
-Et puis voila quoi, ils se retrouvent les uns les autres durant une stroll.
+Et puis voila quoi, ils se retrouvent les uns les autres durant une stroll, cad, un dogsitter, et des dog.
 C'est AirBnDogs quoi.
 
 ### Utilisation

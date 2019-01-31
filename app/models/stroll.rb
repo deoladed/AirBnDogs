@@ -1,5 +1,5 @@
 class Stroll < ApplicationRecord
-  # belongs_to :dog
   belongs_to :dogsitter
-  has_and_belongs_to_many :dogs
+  has_many :dogstrolls
+  has_many :dogs, through: :dogstrolls
 end
