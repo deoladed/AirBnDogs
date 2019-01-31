@@ -17,6 +17,10 @@ end
 	Dogsitter.create(name: Faker::HarryPotter.character, city: City.all.sample)
 end
 
+# On cree des stroll qui ont un dogsitter
 20.times do
-	Stroll.create(dog: Dog.all.sample, dogsitter: Dogsitter.all.sample)
+	stroll = Stroll.create(dogsitter: Dogsitter.all.sample)
+	3.times do # Et on ajoute plusieurs dogs
+		stroll.dogs << Dog.all.sample
+	end
 end
